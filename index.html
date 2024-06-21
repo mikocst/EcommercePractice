@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel = "stylesheet" href="styles.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+   <nav>
+    <ul class = "nav-left">
+      <li><strong>sneakers</strong></li>
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <ul class = "nav-right">
+      <li><img src="images/icon-cart.svg"></li>
+      <li><img class = "avatar" src="images\image-avatar.png"></li>
+    </ul>
+   </nav>
+
+   <section class = "item-showcase">
+    <div class = "container">
+      <div class = "shoe-wrapper">
+        <div class = "main-image-wrapper">
+          <img class = "main-image" src="images/image-product-1.jpg">
+        </div>
+
+        <div class = "sub-image-wrapper">
+          <div class = "sub-img"><img src="images\image-product-1-thumbnail.jpg"></div>
+          <div class = "sub-img"><img src="images\image-product-2-thumbnail.jpg"></div>
+          <div class = "sub-img"><img src="images\image-product-3-thumbnail.jpg"></div>
+          <div class = "sub-img"><img src="images\image-product-4-thumbnail.jpg"></div>
+        </div>
+    </div>
+
+    <div class = "item-desc-wrapper">
+      <div>
+        <div class = "name-wrap">
+          <p>SNEAKER COMPANY</p>
+          <h1>Fall Limited Edition Sneakers</h1>
+        </div>
+
+        <div>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+        </div>
+        
+        <div class = "price-wrapper">
+          <div class = "price"><p>$125.00</p></div> <div class = "discount"><p>50%</p></div>
+        </div>
+
+        <div>
+          <p>$250</p>
+        </div>
+
+        <div class = 'cta-wrapper'>
+          <div class = "quantity">
+            0
+          </div>
+
+          <button class = "cta-button">
+            Add to Cart
+            </button>
+        </div>
+      </div>
+   </div>
+   </section>
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Miko Castillo</a>.
+  </div>
+</body>
+</html>

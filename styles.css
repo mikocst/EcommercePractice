@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+p {
+    max-width: 65ch;
+}
+
+nav {
+    width: 100%;
+    border-bottom: solid ;
+    display: flex;
+    align-items: space-between;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+.nav-right {
+    justify-content: end;
+    align-items: center
+}
+
+nav li {
+    height: 50px;
+}
+
+.avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.item-showcase {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item-desc-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    margin-right: 16px;
+}
+
+.discount {
+    margin-left: 16px;
+}
+
+.cta-wrapper {
+    display: flex;
+}
+
+.quantity {
+    margin-right: 16px;
+}
+
+.cta-button {
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.shoe-wrapper {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.main-image-wrapper {
+    overflow:hidden;
+    
+}
+
+.main-image {
+    max-height: 23rem;
+}
+
+
+.sub-image-wrapper {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.sub-img {
+    display: flex;
+    flex-direction: row;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
