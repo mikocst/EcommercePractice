@@ -73,14 +73,22 @@ img {
 .price-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .price {
     margin-right: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .discount {
     margin-left: 1rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    color:white;
+    background-color: black;
+    border-radius: 12px;
+    font-weight: bold;
 }
 
 .cta-wrapper {
