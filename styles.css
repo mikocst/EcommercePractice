@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-
-
 p {
     max-width: 65ch;
 }
@@ -89,6 +87,11 @@ img {
     background-color: black;
     border-radius: 12px;
     font-weight: bold;
+}
+
+.ori-price {
+    opacity: 60%;
+    text-decoration: line-through;
 }
 
 .cta-wrapper {
