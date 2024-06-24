@@ -61,6 +61,10 @@ img {
     flex-direction: column;
 }
 
+.tagline {
+    opacity: 60%;
+}
+
 .name-wrap {
     display: flex;
     flex-direction: column;
@@ -97,10 +101,20 @@ img {
 
 
 .cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
+    background-color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    border-radius: 12px;
     cursor: pointer;
     margin-left: 16px;
     padding: 1rem;
+}
+
+.cta-button * {
+    margin: 0 0.5rem 0 0.5rem;
 }
 
 .shoe-wrapper {
