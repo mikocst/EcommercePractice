@@ -72,24 +72,35 @@ img {
 }
 
 .price {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .discount {
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 .cta-wrapper {
     display: flex;
 }
 
-.quantity {
-    margin-right: 16px;
+.quantity-wrapper {
+    width: 40%;
+    background-color: #FAF9F6;
+    padding: 0px 16px 0px 16px;
+    margin-right: 1rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
+
 .cta-button {
+    width: 60%;
     cursor: pointer;
     margin-left: 16px;
+    padding: 1rem;
 }
 
 .shoe-wrapper {
