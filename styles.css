@@ -8,25 +8,41 @@ p {
 }
 
 nav {
-    width: 100%;
-    border-bottom: solid ;
     display: flex;
-    align-items: space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 100px 1rem 100px;
+    border-bottom: 2px solid #38383825;
 }
 
 nav ul {
-    width: 100%;
     list-style: none;
     display: flex;
 }
 
+.nav-left {
+    display: flex;
+    align-content: center;
+}
+
+.nav-left * {
+    margin: 0 .5rem;
+}
+
 .nav-right {
-    justify-content: end;
-    align-items: center
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-right * {
+    margin: 0 .5rem;
 }
 
 nav li {
-    height: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .avatar {
