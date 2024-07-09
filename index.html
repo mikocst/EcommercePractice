@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel = "stylesheet" href="styles.css">
   <title>Frontend Mentor | E-commerce product page</title>
-
+  <script src="script.js" defer></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -70,9 +70,9 @@
   
           <div class = 'cta-wrapper'>
             <div class = "quantity-wrapper">
-              <div><img src="/images/icon-minus.svg"></div>
-              <p>0</p>
-              <div><img src="/images/icon-plus.svg"></div>
+              <div id = "minus" onclick="minusCount()"><img src="/images/icon-minus.svg"></div>
+              <p id = "item-count">0</p>
+              <div id = "plus" onclick="plusCount()"><img src="/images/icon-plus.svg"></div>
             </div>
   
             <button class = "cta-button">

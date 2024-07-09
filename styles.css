@@ -59,7 +59,7 @@ img {
 
 .item-showcase {
     width: 100dvw;
-    height: 100dvh;
+    height: 70dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,4 +197,12 @@ img {
     width: 5rem;
     height: 5rem;
     margin-right: 1rem;
+}
+
+#minus {
+    cursor: pointer;
+}
+
+#plus {
+    cursor: pointer;
 }
