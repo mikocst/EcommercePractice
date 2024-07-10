@@ -3,6 +3,46 @@
     padding: 0;
 }
 
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    padding: 1rem;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+dialog[open] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.modal-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#close-icon {
+    position: absolute;
+    top: 2%;
+    right: 1rem;
+    cursor: pointer;
+}
+
+
+
+.dialog-image-wrapper img {
+    width: 100%;
+}
+
 p {
     max-width: 65ch;
 }
@@ -11,8 +51,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0 1rem 0;
-    margin: 0 10rem 0 10rem;
+    padding: 1rem 0;
+    margin: 0 10rem;
     border-bottom: 2px solid #38383825;
 }
 
@@ -28,7 +68,7 @@ nav ul {
 }
 
 .nav-left * {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
 }
 
 .nav-right {
@@ -38,7 +78,7 @@ nav ul {
 }
 
 .nav-right * {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
 }
 
 nav li {
@@ -58,8 +98,8 @@ img {
 }
 
 .item-showcase {
-    width: 100dvw;
-    height: 70dvh;
+    width: 100vw;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,13 +110,14 @@ img {
     flex-direction: row;
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-desc-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .tagline {
@@ -118,8 +159,8 @@ img {
 }
 
 .discount {
-    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-    color:white;
+    padding: 0.25rem 0.5rem;
+    color: white;
     background-color: black;
     border-radius: 12px;
     font-weight: bold;
@@ -143,14 +184,13 @@ img {
     width: 20%;
     background-color: #FAF9F6;
     font-weight: bold;
-    padding: 0px 16px 0px 16px;
+    padding: 0 16px;
     margin-right: 1rem;
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .cta-button {
     display: flex;
@@ -166,25 +206,22 @@ img {
 }
 
 .cta-button * {
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 0.5rem;
 }
 
 .shoe-wrapper {
     width: 50%;
-    display:flex;
+    display: flex;
     flex-direction: column;
-
 }
 
 .main-image-wrapper {
-    overflow:hidden;
-    
+    overflow: hidden;
 }
 
 .main-image {
     max-height: 23rem;
 }
-
 
 .sub-image-wrapper {
     display: flex;
@@ -200,10 +237,6 @@ img {
     margin-right: 1rem;
 }
 
-#minus {
-    cursor: pointer;
-}
-
-#plus {
+#minus, #plus {
     cursor: pointer;
 }
