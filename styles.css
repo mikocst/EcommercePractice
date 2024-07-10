@@ -189,6 +189,7 @@ img {
 .sub-image-wrapper {
     display: flex;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .sub-img {
